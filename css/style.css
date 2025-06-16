@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+body{
+    background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+}
+a{
+    text-decoration: none;
+}
+
+/*Header*/
+header{
+    background-color: #1E1E1E;
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    padding-top: 10px;
+}
+.navbar a{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color: #fff;
+    color: #1E1E1E;
+    transition: 0.5s;
+}
+.logo img{
+    width: 40px;
+}
+
+
+/*Sobre*/
+#sobre{
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+#sobre section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foto-perfil{
+    border: solid;
+}
+.texto-sobre{
+    color: #fff;
+    border: solid;
+    width: 600px;
+}
+.texto-sobre h2{
+    font-size: 30px;
+}
+.texto-sobre p{
+    font-size: 20px;
+}
+
+/*Especialidades*/
+#especialidades{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+#especialidades h1{
+    margin-bottom: 30px;
+}
+#especialidades section{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    border: solid 3px #019EFF;
+    border-radius: 20px;
+    padding: 40px 20px 20px 20px;
+    width: 510px;
+    height: 360px;
+}
+.container a{
+    padding: 0 10px;
+    font-size: 180px;
+}
+#js{
+    color: #F7DF1E;
+}
+#css{
+    color: #264DE4;
+}
+#html{
+    color: #FF7816;
+}
+
+/*Projetos*/
+#Projetos{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+#Projetos section{
+    display: flex;
+    justify-content: space-around;
+}
+.projeto-container{
+    text-align: center;
+    width: 340px;
+    height: 380px;
+    border: solid 3px #019EFF;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.projeto-container h3{
+    font-size: 30px;
+}
+.projeto-container p{
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
