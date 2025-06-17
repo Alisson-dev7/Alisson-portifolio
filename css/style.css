@@ -337,27 +337,27 @@ form button{
 
      /*Formulario mobile*/
      form{
-        width: 400px;
-        height: 450px;
+        width: 320px;
+        height: 440px;
      }
      form h1{
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 10px;
      }
      form input{
-        width: 300px;
+        width: 260px;
         height: 30px;
      }
      form label{
         font-size: 15px;
-        margin-right: 260px;
+        margin-right: 220px;
      }
      form textarea{
-        width: 300px;
+        width: 260px;
         min-height: 130px;
      }
      #label-mensagem{
-        margin-right: 210px;
+        margin-right: 180px;
      }
      form button{
         width: 80px;
