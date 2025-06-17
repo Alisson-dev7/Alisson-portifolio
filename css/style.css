@@ -43,15 +43,17 @@ header{
 }
 .navbar a{
     color: #fff;
-    padding: 20px;
+    margin-left: 20px;
 }
 .navbar a:hover{
     background-color: #fff;
     color: #1E1E1E;
     transition: 0.5s;
+    padding: 10px;
+    border-radius: 5px;
 }
 .logo img{
-    width: 40px;
+    height: 40px;
 }
 
 
@@ -191,6 +193,9 @@ ul{
 @media screen and (max-width: 1020px) {
     /*Menu desktop*/
     .navbar{
+        display: none;
+    }
+    .logo{
         display: none;
     }
     /*Sobre moobile*/
