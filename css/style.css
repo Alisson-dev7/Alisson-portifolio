@@ -191,6 +191,9 @@ ul{
 }
 
 @media screen and (max-width: 1020px) {
+    section{
+        margin: auto;
+    }
     /*Menu desktop*/
     .navbar{
         display: none;
