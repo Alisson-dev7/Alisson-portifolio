@@ -6,3 +6,6 @@ function menuShow(){
         menuMobile.classList.add('open');
     }
 }
+function vangogh (){
+    window.location.href= "https://vangogh7.netlify.app";
+}
