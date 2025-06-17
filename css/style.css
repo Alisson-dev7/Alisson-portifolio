@@ -204,8 +204,6 @@ ul{
     /*Sobre moobile*/
      #sobre section{
         flex-direction: column-reverse;
-        justify-content: center;
-        justify-items: center;
      }
      .texto-sobre{
         width: 300px;
@@ -223,12 +221,11 @@ ul{
      /*Especialidade mobile*/
      #especialidades section{
         align-items: center;
-        justify-items: center;
         font-size: 25px;
      }
      .especialidade-containe{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
      }
      .container{
         width: 280px;
@@ -244,12 +241,11 @@ ul{
 
      /*Projeto mobile*/
      #Projetos section{
-        justify-items: center;
         align-items: center;
      }
      .container-pro{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
      }
      .projeto-container{
         width: 280px;
@@ -266,13 +262,9 @@ ul{
      }
 
      /*contato mobile*/
-     #contato section{
-        justify-items: center;
-     }
-
      ul{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
      }
      .contato-containe{
         margin-bottom: 20px;
