@@ -141,6 +141,7 @@ header section{
 /*Contato*/
 #contato section{
     text-align: center;
+    align-items: center;
     font-size: 35px;
     color: #fff;
 }
@@ -207,14 +208,54 @@ ul{
         flex-direction: column;
      }
      .container{
-        width: 300px;
+        width: 280px;
         height: 200px;
         margin-bottom: 30px;
      }
      .container a{
-        font-size: 90px;
+        font-size: 80px;
      }
      .container h2{
         font-size: 35px;
+     }
+
+     /*Projeto mobile*/
+     #Projetos section{
+        align-items: center;
+     }
+     .container-pro{
+        flex-direction: column;
+     }
+     .projeto-container{
+        width: 280px;
+        height: 300px;
+     }
+     .projeto-container img{
+        width: 230px;
+     }
+     .projeto-container h3{
+        font-size: 20px;
+     }
+     .projeto-container p{
+        font-size: 11px;
+     }
+
+     /*contato mobile*/
+
+     ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 30px;
+        align-items: center;
+     }
+     .contato-containe{
+        width: 120px;
+        height: 120px;
+     }
+     .contato-containe a{
+        font-size: 50px;
+     }
+     .contato-containe p{
+        font-size: 20px;
      }
 }
