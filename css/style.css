@@ -204,6 +204,7 @@ form{
     border-radius: 20px;
     height: 550px;
     width: 600px;
+    margin-bottom: 50px;
 }
 form h1{
     font-size: 35px;
@@ -211,12 +212,12 @@ form h1{
     margin-top: 20px;
 }
 form label{
-    margin-right: 430px;
+    margin-right: 440px;
     font-size: 20px;
     color: #fff;
 }
 #label-mensagem{
-    margin-right: 380px;
+    margin-right: 390px;
 }
 form input{
     width: 500px;
@@ -225,6 +226,7 @@ form input{
     margin-bottom: 20px;
     font-size: 15px;
     padding-left: 10px;
+    border: #fff solid 4px;
 }
 form input:hover{
     border: #0e76e8 solid 4px;
@@ -238,6 +240,7 @@ form textarea{
     padding-top: 10px;
     padding-left: 10px;
     font-size: 15px;
+    border: #fff solid 4px;
 }
 form textarea:hover{
     border: #0e76e8 solid 4px;
@@ -252,13 +255,89 @@ form button{
     cursor: pointer;
 }
 
+/*Footer do site*/
+footer{
+    background-color: #1E1E1E;
+    border: solid #fff;
+    height: 80px;
+}
+footer section{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    border: #019EFF solid;
+    height: 50px;
+    padding: 20px 0 0 0;
+}
 
+/*menu mobile*/
+.menu-mobile{
+    display: none;
+}
 @media screen and (max-width: 1020px) {
-    /*Menu desktop*/
-    .navbar{
+    /*Menu mobile*/
+    header section{
+        padding: 1rem 2rem;
+    }
+    .menu-mobile-inicio{
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+        height:0;
+    }
+    .menu-mobile-inicio button{
+        background-color: transparent;
+        border: none;
+        margin-top: 5px;
+    }
+    .menu-mobile-inicio a img{
+        height: 40px;
+    }
+    .menu-mobile{
+        height: 40px;
+        display: block;
+    }
+    .menu-lateral{
+        display: none;
+        flex-direction: column;
+        padding-bottom: 1rem;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+        background-color: #1E1E1E;
+        width: 70%;
+    }
+    .menu-lateral img{
+        margin-right: 220px;
+        height: 40px;
+    }
+    .menu-lateral a{
+        margin-right: 20px;
+        color: #fff;
+        font-size: 20px;
+        text-align: right;
+        margin-top: 30px;
+    }
+    .overlay-menu{
+        background-color: #000000a9;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 88888;
         display: none;
     }
-    .logo{
+    .open{
+        display: flex;
+    }
+    .menu-lateral.open ~ .overlay-menu{
+        display: block;
+    }
+    /*Menu desktop*/
+    .menu-desktop{
         display: none;
     }
     /*Sobre moobile*/
@@ -338,7 +417,7 @@ form button{
      /*Formulario mobile*/
      form{
         width: 320px;
-        height: 440px;
+        height: 455px;
      }
      form h1{
         font-size: 20px;

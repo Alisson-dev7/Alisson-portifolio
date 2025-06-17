@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
     <title>Alisson</title>
 </head>
 <body>
@@ -21,9 +22,26 @@
                     <a href="">Contato</a>
                 </nav>
             </div>
-            
+            <div class="menu-mobile">
+                <div class="menu-mobile-inicio">
+                    <a href="">
+                        <img src="/img/Group 1 (12).png" alt="">
+                    </a>
+                    <button onclick="menuShow()"><img src="/img/menu_white_36dp.svg" alt=""></button>
+                </div>
+
+                <div class="menu-lateral" onclick="menuShow()">
+                    <img src="/img/close_white_36dp.svg" alt="">
+                    <a href="">Sobre</a>
+                    <a href="">Especialidades</a>
+                    <a href="">Projetos</a>
+                    <a href="">Contato</a>
+                </div>
+                <div class="overlay-menu" onclick="menuShow()"></div>
+            </div>
         </section>
     </header>
+
     <div id="sobre">
         <section>
             <div class="texto-sobre">
@@ -121,6 +139,12 @@
             </form>
         </section>
     </div>
+
+    <footer>
+        <section>
+            <p>&copy; Alisson 2025</p>
+        </section>
+    </footer>
 
 </body>
 </html>
