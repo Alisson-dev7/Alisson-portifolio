@@ -185,6 +185,7 @@ ul{
      #sobre section{
         flex-direction: column-reverse;
         justify-content: center;
+        justify-items: center;
      }
      .texto-sobre{
         width: 300px;
@@ -202,6 +203,7 @@ ul{
      /*Especialidade mobile*/
      #especialidades section{
         align-items: center;
+        justify-items: center;
         font-size: 25px;
      }
      .especialidade-containe{
@@ -221,6 +223,7 @@ ul{
 
      /*Projeto mobile*/
      #Projetos section{
+        justify-items: center;
         align-items: center;
      }
      .container-pro{
@@ -241,14 +244,15 @@ ul{
      }
 
      /*contato mobile*/
+     #contato section{
+        justify-items: center;
+     }
 
      ul{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        gap: 30px;
-        align-items: center;
+        flex-direction: column;
      }
      .contato-containe{
+        margin-bottom: 20px;
         width: 120px;
         height: 120px;
      }
