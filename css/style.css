@@ -286,6 +286,9 @@ footer section{
     display: none;
 }
 @media screen and (max-width: 1020px) {
+    html{
+        scroll-padding-top: 40px;
+    }
     /*Menu mobile*/
     header section{
         padding: 1rem 2rem;
