@@ -69,17 +69,18 @@ header section{
 }
 
 /*Especialidades*/
-#especialidades{
-    text-align: center;
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 70px;
-}
 #especialidades h1{
     margin-bottom: 30px;
 }
 #especialidades section{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+.especialidade-containe{
     display: flex;
     justify-content: space-between;
 }
@@ -105,15 +106,17 @@ header section{
 }
 
 /*Projetos*/
-#Projetos{
+#Projetos section{
+    display: flex;
+    flex-direction: column;
     font-size: 35px;
     color: #fff;
     text-align: center;
     margin-bottom: 70px;
 }
-#Projetos section{
+.container-pro{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .projeto-container{
     text-align: center;
@@ -136,7 +139,7 @@ header section{
 }
 
 /*Contato*/
-#contato{
+#contato section{
     text-align: center;
     font-size: 35px;
     color: #fff;
@@ -177,7 +180,7 @@ ul{
 }
 
 @media screen and (max-width: 1020px) {
-    /*Sobre mopbile*/
+    /*Sobre moobile*/
      #sobre section{
         flex-direction: column-reverse;
         justify-content: center;
@@ -193,5 +196,25 @@ ul{
      }
      .foto-perfil img{
         width: 400px;
+     }
+     
+     /*Especialidade mobile*/
+     #especialidades section{
+        align-items: center;
+        font-size: 25px;
+     }
+     .especialidade-containe{
+        flex-direction: column;
+     }
+     .container{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 30px;
+     }
+     .container a{
+        font-size: 90px;
+     }
+     .container h2{
+        font-size: 35px;
      }
 }
