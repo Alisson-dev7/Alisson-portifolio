@@ -190,6 +190,68 @@ ul{
 #linkedin{
     color: #0e76e8;
 }
+/*formulario*/
+#formulario section{
+    justify-items: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: #264DE4 solid 3px;
+    border-radius: 20px;
+    height: 550px;
+    width: 600px;
+}
+form h1{
+    font-size: 35px;
+    color: #fff;
+    margin-top: 20px;
+}
+form label{
+    margin-right: 430px;
+    font-size: 20px;
+    color: #fff;
+}
+#label-mensagem{
+    margin-right: 380px;
+}
+form input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+form input:hover{
+    border: #0e76e8 solid 4px;
+}
+form textarea{
+    width: 500px;
+    min-height: 150px;
+    resize: vertical;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+form textarea:hover{
+    border: #0e76e8 solid 4px;
+}
+form button{
+    width: 136px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #264DE4;
+    color: #fff;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 1020px) {
     /*Menu desktop*/
@@ -204,7 +266,7 @@ ul{
         flex-direction: column-reverse;
      }
      .texto-sobre{
-        width: 280px;
+        width: 300px;
      }
      .texto-sobre h2{
         font-size: 25px;
@@ -271,5 +333,35 @@ ul{
      }
      .contato-containe p{
         font-size: 20px;
+     }
+
+     /*Formulario mobile*/
+     form{
+        width: 400px;
+        height: 450px;
+     }
+     form h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+     }
+     form input{
+        width: 300px;
+        height: 30px;
+     }
+     form label{
+        font-size: 15px;
+        margin-right: 260px;
+     }
+     form textarea{
+        width: 300px;
+        min-height: 130px;
+     }
+     #label-mensagem{
+        margin-right: 210px;
+     }
+     form button{
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
      }
 }
