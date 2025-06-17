@@ -2,15 +2,19 @@
 *{
     margin: 0;
     padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transform: 0.2s linear;
     font-family: "Poppins";
 }
 body{
     background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 section{
+    padding: 3rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 3rem 2rem;
 }
 a{
     text-decoration: none;
@@ -25,17 +29,20 @@ header{
     right: 0;
     z-index: 99;
 }
-header section{
+.menu-desktop{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 20px 10px;
+    height: 0;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
 }
 .navbar{
-    margin-top: 10px;
+    font-size: 20px;
+    margin: 0 1rem;
 }
 .navbar a{
     color: #fff;
-    font-size: 20px;
     padding: 20px;
 }
 .navbar a:hover{
