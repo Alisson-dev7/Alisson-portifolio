@@ -19,6 +19,11 @@ a{
 /*Header*/
 header{
     background-color: #1E1E1E;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
 }
 header section{
     display: flex;
@@ -44,7 +49,7 @@ header section{
 
 /*Sobre*/
 #sobre{
-    margin-top: 180px;
+    margin-top: 220px;
     margin-bottom: 200px;
 }
 #sobre section{
@@ -52,12 +57,8 @@ header section{
     justify-content: space-between;
     align-items: center;
 }
-.foto-perfil{
-    border: solid;
-}
 .texto-sobre{
     color: #fff;
-    border: solid;
     width: 600px;
 }
 .texto-sobre h2{
@@ -108,6 +109,7 @@ header section{
     font-size: 35px;
     color: #fff;
     text-align: center;
+    margin-bottom: 70px;
 }
 #Projetos section{
     display: flex;
@@ -122,6 +124,7 @@ header section{
     padding: 20px;
     color: #fff;
     cursor: pointer;
+    margin-top: 30px;
 }
 .projeto-container h3{
     font-size: 30px;
@@ -130,4 +133,65 @@ header section{
     text-align: justify;
     font-size: 15px;
     margin-bottom: 5px;
+}
+
+/*Contato*/
+#contato{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.contato-containe{
+    list-style: none;
+    height: 240px;
+    width: 240px;
+    border: solid 3px #019EFF;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.contato-containe a{
+    font-size: 117px
+}
+.contato-containe p{
+    font-size: 25px;
+    color: #fff;
+}
+#git{
+    color: #1B1F23;
+}
+#whats{
+    color: #25d366;
+}
+#insta{
+    color: #fff;
+}
+#linkedin{
+    color: #0e76e8;
+}
+
+@media screen and (max-width: 1020px) {
+    /*Sobre mopbile*/
+     #sobre section{
+        flex-direction: column-reverse;
+        justify-content: center;
+     }
+     .texto-sobre{
+        width: 300px;
+     }
+     .texto-sobre h2{
+        font-size: 25px;
+     }
+     .texto-sobre p{
+        font-size: 20px;
+     }
+     .foto-perfil img{
+        width: 400px;
+     }
 }
