@@ -208,6 +208,7 @@ ul{
      }
      .especialidade-containe{
         flex-direction: column;
+        justify-content: center;
      }
      .container{
         width: 280px;
@@ -228,6 +229,7 @@ ul{
      }
      .container-pro{
         flex-direction: column;
+        justify-content: center;
      }
      .projeto-container{
         width: 280px;
@@ -250,6 +252,7 @@ ul{
 
      ul{
         flex-direction: column;
+        justify-content: center;
      }
      .contato-containe{
         margin-bottom: 20px;
