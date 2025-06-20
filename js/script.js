@@ -9,6 +9,9 @@ function menuShow(){
 function vangogh (){
     window.location.href= "https://vangogh7.netlify.app";
 }
+function recanto (){
+    window.location.href = "";
+}
 function insta(){
     window.location.href="https://www.instagram.com/alisson_dev7/?utm_source=ig_web_button_share_sheet";
 }
